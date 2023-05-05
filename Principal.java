@@ -12,6 +12,6 @@ public class Principal {
         System.out.println(filme.getDuracao());
         System.out.println(filme.getAnoFilme());
         System.out.println(filme.getGenero());
-
+        System.out.println(filme.getAvaliacao());
     }
 }
