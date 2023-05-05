@@ -71,7 +71,7 @@ public class Filme {
         System.out.println("Duração: "+ duracao);
     }
     private void avaliarFilme(int nota){
-        //notasAvaliacoes = nota + notasAvaliacoes;
+        notasAvaliacoes = nota + notasAvaliacoes;
         notasAvaliacoes += nota; //a mesma coisa da linha acima
         totalAvaliacoes++;
     }
